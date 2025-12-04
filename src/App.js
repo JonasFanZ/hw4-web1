@@ -146,7 +146,7 @@ const GithubSection = () => {
                     View Profile <Icons.Github />
                   </a>
                </div>
-               <p className="text-stone-600 mb-6 text-sm leading-relaxed max-w-lg mx-auto md:mx-0">{profile.bio || "目前還是個程式菜鳥，正在努力探索這廣大的代碼世界。 (Programming Rookie)"}</p>
+               <p className="text-stone-600 mb-6 text-sm leading-relaxed max-w-lg mx-auto md:mx-0">{profile.bio || "目前還是個程式菜鳥，正在努力探索這廣大的代碼世界。"}</p>
                <div className="grid grid-cols-3 gap-4 border-t border-stone-200 pt-6">
                  <div className="text-center md:text-left">
                    <div className="text-2xl font-bold text-stone-800">{profile.public_repos}</div>
